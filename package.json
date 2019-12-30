@@ -1,0 +1,35 @@
+{
+    "name": "validation-form-in-react",
+    "version": "1.0.0",
+    "private": true,
+    "homepage": "https://jontheartist.githib.io/validationform_React",
+    "description": "",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+        "email-validator": "2.0.4",
+        "formik": "2.0.6",
+        "react": "16.8.6",
+        "react-dom": "16.8.6",
+        "react-scripts": "3.0.1",
+        "yup": "0.27.0"
+    },
+    "devDependencies": {
+        "gh-pages": "^2.1.1",
+        "typescript": "3.3.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}
